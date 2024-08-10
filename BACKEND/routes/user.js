@@ -54,5 +54,3 @@ res.send({currentUser: req.user});
 });
 
 module.exports = router; // Export API routes
-
-//----------------...ooo000 End of file 000ooo...------------------------

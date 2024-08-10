@@ -14,7 +14,7 @@ const userSchema = new mongoose.Schema({
 // Create post model
 const User = mongoose.model('User', userSchema);
 
-//----------------------------------------------------------
+
 // Validate user
 function validateUser(user){
     const schema = Joi.object({
@@ -28,5 +28,3 @@ function validateUser(user){
 
 // Export post model
 module.exports = {User, validateUser};
-
-//-------------------...ooo000 End of file 000ooo...------------------------//

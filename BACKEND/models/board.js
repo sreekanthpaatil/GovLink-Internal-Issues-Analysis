@@ -13,7 +13,7 @@ const boardSchema = new mongoose.Schema({
 // Create post model   
 const Board = mongoose.model('Board', boardSchema);
 
-//-------------------------------------------------------------
+
 // Validate post
 function validateBoard(board){
     const schema = Joi.object({
@@ -26,5 +26,3 @@ function validateBoard(board){
 
 // Export post model
 module.exports = {Board, validateBoard};
-
-//-------------------...ooo000 End of file 000ooo...------------------------//

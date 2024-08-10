@@ -17,4 +17,3 @@ async function isValidPassword(password, hash){
 
 module.exports = { hashPassword, isValidPassword };
 
-//-------------------...ooo000 End of file 000ooo...------------------------//
